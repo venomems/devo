@@ -5,7 +5,7 @@ export function User() {
     return (
         <Link to="/auth">
             <div className="header__menu-user">
-                <img src="/public/user.svg" alt={'userStatus'} />
+                <img src="user.svg" alt={'userStatus'} />
                 <span className="header__user">Александр</span>
             </div>
         </Link>

@@ -7,6 +7,8 @@ export function MainPage() {
             <ExamCard/>
             <ExamCard/>
             <ExamCard/>
+            <ExamCard/>
+            <ExamCard/>
         </>
     )
 }

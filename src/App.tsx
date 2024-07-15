@@ -11,7 +11,7 @@ function App() {
             <div className="header__inner">
                 <Navigation/>
                 <Routes>
-                    <Route path="/" element={<MainPage/>}></Route>
+                    <Route path="/" element={<MainPage/>}></Route>`
                     <Route path="/auth" element={<AuthPage />}></Route>
                     <Route path="/settings/:id" element={<SettingsPage />}></Route>
                 </Routes>
