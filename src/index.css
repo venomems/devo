@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,147 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  /*font-family: 'Rubik', sans-serif;*/
+  background: linear-gradient(#6C6BB9 0%, #BBAFDF 100%) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: max-content;
+  font-family: "Raleway", sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /*font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
+  /*  monospace;*/
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu-search {
+  display: flex;
+  align-items: center;
+  max-width: 666px;
+  position: relative;
+}
+
+.header__menu-input {
+  outline: none;
+  border: none;
+  width: 600px;
+  height: 54px;
+  background-color: #E3E3E3;
+  border-radius: 25px;
+  opacity: 21%;
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.header__menu-button {
+  width: 66px;
+  height: 54px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  position: absolute;
+  margin-left: 90%;
+  background-color: #E3E3E3;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
+
+.header__button-img {
+  width: 22px;
+  height: 22px;
+}
+
+.header__menu-user {
+  /*width: 163px;
+  height: 52px;*/
+  display: flex;
+  align-items: center;
+  background-color: #D9D9D9;
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.header__menu-user img {
+  margin-right: 12px;
+  width: 26px;
+  height: 26px;
+}
+
+.header__inner {
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+
+.card__exam {
+  width: 1000px;
+  min-height: 290px;
+  background-color: #E3E3E3;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  padding-top: 11px;
+  cursor: pointer;
+}
+
+.card__exam-category {
+  background-color: #7CDD80;
+  padding: 7px 70px;
+  border-radius: 25px;
+  width: 177px;
+  height: 34px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: 11px;
+}
+
+.card__exam-text {
+  font-size: 20px;
+  max-width: 936px;
+  padding: 26px 32px;
+}
+
+.card__footer {
+  display: flex;
+  padding: 32px;
+  justify-content: space-between;
+}
+
+.card__buttons {
+  padding-top: 30px;
+}
+
+.card__time {
+  padding-top: 40px;
+}
+
+.card__time-span {
+  font-size: 12px;
+  color: #E95353;
+}
+
+.card__button {
+  margin-left: 15px;
+  padding: 16px 32px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: #EFC492;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
 }
